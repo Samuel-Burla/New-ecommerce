@@ -6,14 +6,24 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+// const firebaseConfig = {
+//   apiKey: import.meta.env.VITE_API_KEY,
+//   authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+//   projectId: import.meta.env.VITE_PROJECT_ID,
+//   storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+//   messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+//   appId: import.meta.env.VITE_APP_ID,
+//   measurementId: import.meta.env.VITE_MEASUREMENT_ID,
+// };
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: import.meta.env.VITE_APP_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_APP_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_APP_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_APP_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_APP_ID,
-  measurementId: import.meta.env.VITE_APP_MEASUREMENT_ID,
+  apiKey: "AIzaSyDUP-nwM_jTujE4oeSyTYaTWIb_ZVdJUdM",
+  authDomain: "new-ecommerce-b5d24.firebaseapp.com",
+  projectId: "new-ecommerce-b5d24",
+  storageBucket: "new-ecommerce-b5d24.appspot.com",
+  messagingSenderId: "1007842251844",
+  appId: "1:1007842251844:web:4c7d88e5c20fe54e309811",
+  measurementId: "G-4RYJD7Q1BH"
 };
 
 // Initialize Firebase

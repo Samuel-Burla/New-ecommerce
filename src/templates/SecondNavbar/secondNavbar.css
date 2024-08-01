@@ -1,0 +1,20 @@
+.navbar.menu {
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  background-color: rgb(6, 184, 152);
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 10px;
+}/*# sourceMappingURL=secondNavbar.css.map */
