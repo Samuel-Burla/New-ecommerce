@@ -83,18 +83,18 @@ const Categories = () => {
       <div className="create-form">
         <input
           type="text"
-          placeholder="Text"
-          onChange={(event) => {
-            setAddTextInput(event.target.value);
-          }}
-        />
-        <input
-          type="text"
           placeholder="Title"
           onChange={(event) => {
             setAddTitleInput(event.target.value);
           }}
         />
+          <input
+            type="text"
+            placeholder="Text"
+            onChange={(event) => {
+              setAddTextInput(event.target.value);
+            }}
+          />
         <button onClick={addCategory}>Create a category</button>
       </div>
       <div className="galleryContainer">
