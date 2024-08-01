@@ -14,8 +14,16 @@
 }
 
 .aCategories {
-  width: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aCategories h3 {
+  margin-bottom: 0;
+}
+.aCategories p {
+  margin-top: 5px;
 }
 
 .category {
@@ -24,5 +32,19 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
 }/*# sourceMappingURL=categories.css.map */
